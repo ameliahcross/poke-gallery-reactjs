@@ -1,0 +1,16 @@
+.App {
+  min-height: 100vh;
+  background: rgb(66,23,65);
+  background: linear-gradient(128deg, rgba(66,23,65,1) 0%, rgba(0,0,36,1) 33%, rgba(2,0,36,1) 61%, rgba(34,83,75,1) 100%);
+}
+
+.container {
+ min-width: 80%;
+}
+
+.item {
+  background-color: transparent !important;
+  border: 1px solid  !important;
+  border-color: white !important;
+  color: white !important;
+}

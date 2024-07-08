@@ -1,0 +1,82 @@
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .col {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .card-img-top {
+    flex-shrink: 0;
+    object-fit: contain;
+    width: 100%;
+    height: 150px; 
+  }
+
+  .card-title{
+    font-size: 16px !important;
+  }
+  
+  .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    min-height: 150px; 
+  }
+
+  .cold {
+    color: black !important;
+    background-color: aquamarine;
+  }
+  
+  .brown {
+    background-color: rgb(97, 62, 6);
+  }
+
+  .iron {
+    background-color: steelblue;
+  }
+
+  .clear {
+    border: 1px solid white;
+    background-color: transparent;
+  }
+
+  .dragon {
+    background-color: darkgoldenrod;
+  }
+
+  .insect {
+    background-color: slateblue  !important;
+  }
+
+  .orange {
+    background-color: mediumvioletred;
+  }
+
+  .purple {
+    background-color: blueviolet;
+  }
+
+  .dark-grey {
+    background-color: rgb(74, 48, 0);
+  }
+
+  .magenta {
+    background-color: mediumorchid !important;
+  }
+
+  .pink {
+    color: black !important;
+    background-color: pink;
+  }
