@@ -89,7 +89,7 @@ function CardItem() {
   }
 
   return (
-    <Row xs={1} sm={3} md={4} className="g-2">
+    <Row xs={1} sm={2} md={4} lg={6} className="g-2">
       {data.map((pokemon, index) => (
           <Col key={pokemon.name}>
           <Card className='card item'>
